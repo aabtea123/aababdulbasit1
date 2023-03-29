@@ -30,7 +30,7 @@ public class TabActivity extends AppCompatActivity {
         // Tambahkan fragment ke adapter
         adapter.addFragment(new Fragment1(), "jenis");
         adapter.addFragment(new Fragment2(), "Perlengkapan");
-        adapter.addFragment(new Fragment3(), "hallall");
+        adapter.addFragment(new Fragment3(), "hallal");
 
         // Set adapter ke ViewPager
         viewPager.setAdapter(adapter);
